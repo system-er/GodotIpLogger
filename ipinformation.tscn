@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://dpwulv8ueldwh"]
+
+[ext_resource type="Script" path="res://ipinformation.cs" id="1_4374v"]
+[ext_resource type="Texture2D" uid="uid://xfcrbidbjmqc" path="res://systemerror.JPG" id="2_sp74i"]
+
+[node name="ipinformation" type="Node2D"]
+script = ExtResource("1_4374v")
+
+[node name="Systemerror" type="Sprite2D" parent="."]
+position = Vector2(195, 209)
+texture = ExtResource("2_sp74i")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 70.0
+offset_top = 22.0
+offset_right = 422.0
+offset_bottom = 74.0
+text = "Demo for class IpInfoClass.
+Logs are stored in directory logs."

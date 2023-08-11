@@ -18,15 +18,15 @@ Use - like shown in the demoproject in ipinformation.cs you have first to declar
       if you want to log new ipconnections you have to call method ChangedConnections()    
       for example in timed in _Process()    
       ```
-          public override void _Process(double delta)
-          {
-            time = time + delta;
-            if (time > inspectioninterval)
-            {
-                ipic.ChangedConnections();
-                time = 0;
-            }
-          }
+          public override void _Process(double delta)    
+          {    
+            time = time + delta;    
+            if (time > inspectioninterval)    
+            {    
+                ipic.ChangedConnections();    
+                time = 0;    
+            }    
+          }    
     ```
 
 

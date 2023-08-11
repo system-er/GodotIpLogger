@@ -12,8 +12,7 @@ Use - like shown in the demoproject in ipinformation.cs you have first to instan
       with parameter 1 loggingtofile (true or false)     
            parameter 2 logging to screen with gdprint to godotoutput (true or false)     
            parameter 3 dateformat as string for example US-format "MM-dd-yyyy"    
-example:  public IpInfoClass ipic = new IpInfoClass(true, true, "dd-MM-yyyy");
-
+example:  public IpInfoClass ipic = new IpInfoClass(true, true, "dd-MM-yyyy");    
       then you can start the logging by calling the method startinformation() example ipic.startinformation();    
       the start is optimal placed in your _Ready() method.     
       if you want to log new ipconnections you have to call method ChangedConnections()    

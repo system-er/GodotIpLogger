@@ -11,7 +11,7 @@ Install - copy the class IpInfoClass.cs to your project.
 Use - like shown in the demoproject in ipinformation.cs you have first to declare the class IpInfoClass.    
       with parameter 1 loggingtofile (true or false)     
            parameter 2 logging to screen with gdprint to godotoutput (true or false)     
-           parameter 3 dateformat as string for example "dd-MM-yyyy"    
+           parameter 3 dateformat as string for example US-format "MM-dd-yyyy"    
       example: public IpInfoClass ipic = new IpInfoClass(true, true, "dd-MM-yyyy");      
       then you can start the logging by calling the method startinformation() example ipic.startinformation();    
       the start is optimal placed in your _Ready() method.     

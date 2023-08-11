@@ -7,6 +7,7 @@ it can log with gdprint and in a logfile with datename. select with dateformat i
 
 # Installation and Usage:    
 Install - copy the class IpInfoClass.cs to your project.    
+
 Use - like shown in the demoproject in ipinformation.cs you have first to declare the class IpInfoClass.
       with parameter 1 loggingtofile (true or false)     
            parameter 2 logging to screen with gdprint to godotoutput (true or false)     

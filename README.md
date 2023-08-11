@@ -16,6 +16,7 @@ example:
 ```
       public IpInfoClass ipic = new IpInfoClass(true, true, "dd-MM-yyyy");
 ```
+```
 
       then you can start the logging by calling the method startinformation() example ipic.startinformation();    
       the start is optimal placed in your _Ready() method.     

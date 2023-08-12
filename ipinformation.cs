@@ -17,6 +17,7 @@ public partial class ipinformation : Node2D
     public override void _Ready()
     {
         ipic.startinformation();
+        inspectioninterval = 1.0f;
     }
 
 

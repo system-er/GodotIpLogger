@@ -15,7 +15,7 @@ Use - like shown in the demoproject in ipinformation.cs you have first to instan
 example:  public IpInfoClass ipic = new IpInfoClass(true, true, "dd-MM-yyyy");    
       then you can start the logging by calling the method startinformation() example ipic.startinformation();    
       the start is optimal placed in your _Ready() method.     
-      if you want to log new ipconnections you have to call method ChangedConnections()    
+      if you want to log changed ipconnections you have to call method ChangedConnections()    
       for example timed in _Process()    
 ```
       public override void _Process(double delta)    

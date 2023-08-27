@@ -34,6 +34,3 @@ example:  public IpInfoClass ipic = new IpInfoClass(true, true, "dd-MM-yyyy");
 # Last changes:    
 - v0.1 start
 
-# contact:
-sys_temerror at web dot de    
-![Pic1](systemerror.JPG)
